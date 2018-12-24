@@ -73,8 +73,7 @@
     methods: {
       sendCode () {
         // 显示最大的计时时间
-        this.computeTime = 30
-        // 启动循环计时器, 每隔1s减1
+        this.computeTime = 3
         const intervalId = setInterval(() => {
           this.computeTime--
           if(this.computeTime<=0) {
